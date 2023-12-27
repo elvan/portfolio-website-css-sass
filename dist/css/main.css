@@ -220,6 +220,34 @@ img {
         color: set-text-color(#333);
         background: #333; }
 
+#about-a .about-info {
+  grid-gap: 1.2rem;
+  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  display: grid; }
+
+#about-a .bio-image {
+  grid-area: bioimage; }
+
+#about-a .bio {
+  grid-area: bio;
+  padding: 0.8rem;
+  border-left: 3px solid #ffbc00; }
+
+#about-a .award-1 {
+  grid-area: aw1; }
+
+#about-a .award-2 {
+  grid-area: aw2; }
+
+#about-a .award-3 {
+  grid-area: aw3; }
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  margin: 1rem;
+  color: #ffbc00; }
+
 #main-footer {
   height: 5rem;
   color: #fff;
