@@ -51,6 +51,45 @@ input[class^='btn-']:hover {
 .text-center {
   text-align: center; }
 
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.section-title {
+  display: block;
+  padding-bottom: 0.5rem;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.bottom-line {
+  display: block;
+  width: 3rem;
+  height: 2px;
+  margin: 0 auto 1rem auto;
+  background: #ffbc00; }
+
 * {
   margin: 0;
   padding: 0; }
