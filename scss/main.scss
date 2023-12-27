@@ -264,6 +264,19 @@ img {
       }
     }
   }
+
+  // About C
+  &-c {
+    .about-logos {
+      grid-gap: 2rem;
+      grid-template-columns: repeat(4, 1fr);
+      display: grid;
+
+      img {
+        width: 70%;
+      }
+    }
+  }
 }
 
 // Footer
