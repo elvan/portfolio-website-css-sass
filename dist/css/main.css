@@ -219,3 +219,24 @@ img {
       #home-c .process-icon:hover .process-step {
         color: set-text-color(#333);
         background: #333; }
+
+#main-footer {
+  height: 5rem;
+  color: #fff;
+  background: #333; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem; }
+    #main-footer .footer-content .social .fab {
+      width: 20px;
+      height: 20px;
+      margin-right: 1rem;
+      padding: 0.5rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      line-height: 20px;
+      text-align: center; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }
