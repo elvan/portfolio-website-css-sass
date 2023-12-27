@@ -100,3 +100,21 @@ img {
     background: $bg-image no-repeat 20% 30% / cover;
   }
 }
+
+// Home Sections
+#home {
+  // Home Section A
+  &-a {
+    .specials {
+      grid-gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+      display: grid;
+      margin-top: 3rem;
+
+      .fas {
+        padding-bottom: 0.4rem;
+        color: $main-color;
+      }
+    }
+  }
+}
