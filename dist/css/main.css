@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.6;
+  font-family: 'Dosis', sans-serif;
+  background: #fff; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+img {
+  width: 100%; }
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+  #main-nav a {
+    padding-bottom: 0.5rem;
+    border-bottom: 3px transparent solid;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-color 0.5s; }
+    #main-nav a:hover {
+      border-color: #ccc; }
+    #main-nav a.current {
+      border-color: #ffbc00; }
+
+#header-home {
+  height: 100vh;
+  color: #fff;
+  background: url("../img/showcase.jpg") no-repeat center right/cover; }
+  #header-home .header-content {
+    padding-top: 20%;
+    text-align: center; }
+    #header-home .header-content h1 {
+      font-size: 4rem;
+      line-height: 1.2; }
+
+#header-inner {
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbc00;
+  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover; }
