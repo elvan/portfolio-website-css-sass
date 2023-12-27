@@ -150,4 +150,56 @@ img {
       }
     }
   }
+
+  // Home Section C
+  &-c {
+    .process {
+      grid-gap: 1.5rem;
+      grid-template-columns: repeat(4, 1fr);
+      display: grid;
+      text-align: center;
+
+      // process-step
+      &-step {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15px;
+        height: 15px;
+        padding: 1rem;
+        border-radius: 50%;
+        color: set-text-color($main-color);
+        font-size: 28px;
+        line-height: 15px;
+        background: $main-color;
+        transition: all 1s;
+      }
+
+      // process-icon
+      &-icon {
+        position: relative;
+        width: 70px;
+        height: 70px;
+        padding: 2rem;
+        border-radius: 50%;
+        color: set-text-color($dark-color);
+        line-height: 70px;
+        text-align: center;
+        background: $dark-color;
+        transition: all 1s;
+
+        &:hover {
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+          background: $main-color;
+
+          .process-step {
+            color: set-text-color($dark-color);
+            background: $dark-color;
+          }
+        }
+      }
+    }
+  }
 }

@@ -181,3 +181,41 @@ img {
       background: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
       background: #ccc; }
+
+#home-c .process {
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  text-align: center; }
+  #home-c .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    padding: 1rem;
+    border-radius: 50%;
+    color: set-text-color(#ffbc00);
+    font-size: 28px;
+    line-height: 15px;
+    background: #ffbc00;
+    transition: all 1s; }
+  #home-c .process-icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 2rem;
+    border-radius: 50%;
+    color: set-text-color(#333);
+    line-height: 70px;
+    text-align: center;
+    background: #333;
+    transition: all 1s; }
+    #home-c .process-icon:hover {
+      width: 90px;
+      height: 90px;
+      line-height: 90px;
+      background: #ffbc00; }
+      #home-c .process-icon:hover .process-step {
+        color: set-text-color(#333);
+        background: #333; }
