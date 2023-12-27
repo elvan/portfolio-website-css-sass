@@ -246,6 +246,24 @@ img {
       color: $main-color;
     }
   }
+
+  // About B
+  &-b {
+    .progress {
+      height: 20px;
+      margin-bottom: 0.6rem;
+      border-radius: 5px;
+      overflow: hidden;
+      background: $medium-color;
+
+      div {
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        background: $main-color;
+      }
+    }
+  }
 }
 
 // Footer

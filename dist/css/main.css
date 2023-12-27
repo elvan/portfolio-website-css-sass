@@ -29,19 +29,19 @@ input[class^='btn-']:hover {
   background-color: #ffbc00; }
 
 .bg-main {
-  color: set-text-color(#ffbc00);
+  color: #fff;
   background: #ffbc00; }
 
 .bg-dark {
-  color: set-text-color(#333);
+  color: #fff;
   background: #333; }
 
 .bg-light {
-  color: set-text-color(#f4f4f4);
+  color: #000;
   background: #f4f4f4; }
 
 .bg-medium {
-  color: set-text-color(#ccc);
+  color: #000;
   background: #ccc; }
 
 .lead {
@@ -195,7 +195,7 @@ img {
     height: 15px;
     padding: 1rem;
     border-radius: 50%;
-    color: set-text-color(#ffbc00);
+    color: #fff;
     font-size: 28px;
     line-height: 15px;
     background: #ffbc00;
@@ -206,7 +206,7 @@ img {
     height: 70px;
     padding: 2rem;
     border-radius: 50%;
-    color: set-text-color(#333);
+    color: #fff;
     line-height: 70px;
     text-align: center;
     background: #333;
@@ -217,7 +217,7 @@ img {
       line-height: 90px;
       background: #ffbc00; }
       #home-c .process-icon:hover .process-step {
-        color: set-text-color(#333);
+        color: #fff;
         background: #333; }
 
 #about-a .about-info {
@@ -247,6 +247,18 @@ img {
 #about-a .award-3 .fas {
   margin: 1rem;
   color: #ffbc00; }
+
+#about-b .progress {
+  height: 20px;
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #ccc; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00; }
 
 #main-footer {
   height: 5rem;
