@@ -4,6 +4,53 @@
   padding: 0 1.5rem;
   overflow: hidden; }
 
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s; }
+
+.btn-main {
+  color: #333;
+  background-color: #ffbc00; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #ffbc00; }
+
+.bg-main {
+  color: set-text-color(#ffbc00);
+  background: #ffbc00; }
+
+.bg-dark {
+  color: set-text-color(#333);
+  background: #333; }
+
+.bg-light {
+  color: set-text-color(#f4f4f4);
+  background: #f4f4f4; }
+
+.bg-medium {
+  color: set-text-color(#ccc);
+  background: #ccc; }
+
+.lead {
+  margin-bottom: 2rem;
+  font-size: 1.3rem; }
+
+.text-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
