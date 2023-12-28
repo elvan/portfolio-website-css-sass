@@ -324,19 +324,15 @@ img {
       .name-input {
         grid-area: name;
       }
-
       .subject-input {
         grid-area: subject;
       }
-
       .email-input {
         grid-area: email;
       }
-
       .phone-input {
         grid-area: phone;
       }
-
       .message-input {
         grid-area: message;
         height: 100px;
@@ -396,3 +392,6 @@ img {
     }
   }
 }
+
+// Import Media Queries
+@import 'media';
